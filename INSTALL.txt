@@ -27,13 +27,9 @@ Tested 2011.8.5 on:
  jpeglib
  OpenGLU 
 
-On Ubuntu 11.10 I install these packages:
-
-$ sudo apt-get install git cmake g++ fltk1.1-dev libjpeg8-dev libpng12-dev libglu1-mesa-dev libltdl-dev	
-
 On Ubuntu 22.04 I install these packages:
 
-$ sudo apt-get install git cmake g++ libfltk1.3-dev libjpeg8-dev libpng-dev libglu1-mesa-dev libltdl-dev 
+$ sudo apt-get install git cmake g++ libfltk1.1-dev libjpeg8-dev libpng-dev libglu1-mesa-dev libltdl-dev 
 
 On the Mac I use Homebrew, since MacPorts installs way more than Stage
 needs (http://mxcl.github.com/homebrew/). First, install Apple's XCode
