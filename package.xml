@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>stage</name>
+  <version>0.0.1</version>
+  <description>Stage as ROS2 pkg</description>
+  <maintainer email="markus.bader@tuwien.ac.at">Markus Bader</maintainer>
+  <license>GNU</license>
+
+  <depend>libfltk-dev</depend>
+  <depend>libpng-dev</depend>
+  <depend>libjpeg</depend>
+  <depend>libtool</depend>
+  <depend>opengl</depend>
+
+</package>
