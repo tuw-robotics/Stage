@@ -96,6 +96,11 @@ find_package( PNG REQUIRED )
 # SET( PNG_LIBRARIES /opt/X11/lib/libpng.dylib )
 # SET( PNG_INCLUDE_DIR /opt/X11/include )
 
+# Only set it if the user hasn't already specified it
+if(NOT DEFINED OpenGL_GL_PREFERENCE)
+    set(OpenGL_GL_PREFERENCE GLVND)
+endif()
+
 set (FLTK_SKIP_FLUID TRUE) 
 find_package( FLTK REQUIRED )
 find_package( OpenGL REQUIRED )
