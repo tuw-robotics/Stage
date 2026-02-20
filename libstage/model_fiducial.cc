@@ -177,7 +177,7 @@ void ModelFiducial::AddModelIfVisible(Model *him)
   // printf( "range %.2f\n", range );
 
   RaytraceResult result = Raytrace(Pose(0, 0, 0, dtheta),
-                                   max_range_anon, // TODOscan only as far as the object
+                                   range, // scan only as far as the object
                                    fiducial_raytrace_match, NULL, true);
 
   // TODO
